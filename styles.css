@@ -1,0 +1,87 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    background-image:
+        url(images/bg-pattern-top.svg),
+        url(images/bg-pattern-bottom.svg);
+    background-position:
+        top -500px left -200px,
+        bottom -500px right -200px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    display: flex;
+    height: auto;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: auto;
+    border-radius: 30px;
+    
+}
+
+.metrics-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+    
+    
+}
+
+.personal-info {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.age{
+    gap: 50px;
+}
+
+
+.card-top{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.profile-picture{
+    position: relative;
+    bottom: 50px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 7px;
+}
+
+hr{
+    border-top: 1px solid hsl(0, 2%, 80%);
+    width: 99%;
+    
+  }
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.city{
+    text-align: center;
+}
