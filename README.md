@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Profile card component
 
-This is a solution to the QR code component challenge on Frontend Mentor
+This is a solution to the profile card component challenge on Frontend Mentor
 
 ### Screenshot
 
